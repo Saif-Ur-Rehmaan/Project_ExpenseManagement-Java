@@ -10,21 +10,25 @@ This guide explains how to run the Expense Management System on Windows.
 
 ## Automatic Run (Recommended)
 
-1.  Locate the file **`run_windows.bat`** in this folder.
+1.  Locate the file **`expense-manager.exe`** in the `target` folder (or where you placed it).
 2.  **Double-click** it.
 3.  The application Dashboard (GUI) should open immediately.
-4.  A black console window will also open; keep this open while using the app.
+
+_Alternatively, you can use the `run_windows.bat` file if you prefer._
 
 ## Troubleshooting
 
 ### "The window opens and closes immediately"
+
 This usually means Java is not installed or not in your system PATH.
+
 1.  Open this folder.
 2.  Type `cmd` in the address bar and press Enter.
 3.  In the black window, type `run_windows.bat` and press Enter.
 4.  Read the error message displayed.
 
 ### "Unable to access jarfile"
+
 Ensure the file `target/expense-manager-1.0-SNAPSHOT.jar` exists. If not, you may need to build the project first or ensure you copied the `target` folder along with the batch script.
 
 ## Manual Run (Advanced)

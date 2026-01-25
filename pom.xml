@@ -52,6 +52,42 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>com.akathist.maven.plugins.launch4j</groupId>
+                <artifactId>launch4j-maven-plugin</artifactId>
+                <version>2.4.1</version>
+                <executions>
+                    <execution>
+                        <id>l4j-gui</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>launch4j</goal>
+                        </goals>
+                        <configuration>
+                            <headerType>gui</headerType>
+                            <outfile>target/expense-manager.exe</outfile>
+                            <jar>target/expense-manager-1.0-SNAPSHOT.jar</jar>
+                            <errTitle>Expense Manager Error</errTitle>
+                            <jre>
+                                <path>jre</path>
+                                <minVersion>17</minVersion>
+                            </jre>
+                            <cmdLine>gui</cmdLine>
+                            <versionInfo>
+                                <fileVersion>1.0.0.0</fileVersion>
+                                <txtFileVersion>1.0.0.0</txtFileVersion>
+                                <fileDescription>Expense Management System</fileDescription>
+                                <copyright>2026</copyright>
+                                <productVersion>1.0.0.0</productVersion>
+                                <txtProductVersion>1.0.0.0</txtProductVersion>
+                                <productName>Expense Manager</productName>
+                                <internalName>expense-manager</internalName>
+                                <originalFilename>expense-manager.exe</originalFilename>
+                            </versionInfo>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
