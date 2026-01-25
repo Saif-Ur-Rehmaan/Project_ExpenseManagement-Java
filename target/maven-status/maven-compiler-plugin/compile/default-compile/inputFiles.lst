@@ -1,10 +1,5 @@
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/main/Main.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/gui/SummaryPanel.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/service/FinanceService.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/gui/TransactionTablePanel.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/console/TerminalUI.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/model/TransactionType.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/model/Transaction.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/service/StorageService.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/gui/SidebarPanel.java
-/home/saif/Desktop/uni/Project_ExpenseManagement-Java/src/main/java/com/expensemanager/gui/MainFrame.java
+/home/saif/Desktop/uni/Project_ExpenseManagement-Java/Main.java
+/home/saif/Desktop/uni/Project_ExpenseManagement-Java/models/Expense.java
+/home/saif/Desktop/uni/Project_ExpenseManagement-Java/models/Transaction.java
+/home/saif/Desktop/uni/Project_ExpenseManagement-Java/ExpenseManager.java
+/home/saif/Desktop/uni/Project_ExpenseManagement-Java/models/Income.java
